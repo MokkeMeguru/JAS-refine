@@ -1,3 +1,4 @@
+config_secret.yaml
 JAS/*
 __pycache__
 venv
