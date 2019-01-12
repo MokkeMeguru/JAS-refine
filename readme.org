@@ -26,7 +26,7 @@
   python parse.py
   #+end_src
   csv 形式のデータ、 *raw_dev.csv* *raw_test.csv* *raw_train.csv* が *JAS-refine* フォルダ下に
-得られます。
+得られます。\\
   example:
  |---------------+---|
  | "センテンス1" | 1 |
