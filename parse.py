@@ -31,7 +31,7 @@ def parse(fname):
     csvfile.close()
 
 
-if __name__ == - '__main__':
+if __name__ == '__main__':
     fnames = ['JAS/dev.tsv', 'JAS/test.tsv', 'JAS/train.tsv']
     for fname in fnames:
         parse(fname)
