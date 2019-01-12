@@ -1,0 +1,32 @@
+* JAS refine
+  　極性判定が出来るデータを見つけたので、これを自分用に加工します。
+  　加工基準として、URLなんかは省くようにしています。
+
+* 使い方
+** 生データ(単語分割をしていないもの)
+   以下を実行します。
+  #+begin_src shell
+  git clone https://github.com/MokkeMeguru/JAS-refine
+  git clone https://github.com/sugiyamath/bert
+  cp -r bert/JAS JAS-refine/JAS
+  cd JAS-refine
+  python parse.py
+  #+end_src
+  csv 形式のデータが得られます。
+  example:
+ |---------------+---|
+ | "センテンス1" | 1 |
+ | "センテンス2" | 1 |
+ | "センテンス3" | 2 |
+ | "センテンス4" | 1 |
+ |---------------+---|
+  
+  ラベルは 0 から 5 の整数値であり、0 が positive 5 が negative のようです。
+* require
+  - Python 3
+** in "get raw data"
+   nil
+
+* TODO
+  - [ ] mecab-neologd splitter
+  - [ ] sentence-pieces splitter
