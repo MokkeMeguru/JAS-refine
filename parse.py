@@ -13,7 +13,7 @@ def parse_line(line, c):
 
 def parse(fname):
     csvfile = open(
-        'raw_{}.csv'.format(fname.split('/')[-1]),
+        'raw_{}.csv'.format(fname.split('/')[-1].split('.')[0]),
         'w',
         encoding='utf-8')
     csvfilewriter = csv.writer(
