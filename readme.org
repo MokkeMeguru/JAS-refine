@@ -1,3 +1,16 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:t ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+OPTIONS: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: readme
+#+DATE: <2019-01-12 土>
+#+AUTHOR: meguru
+#+EMAIL: meguru@meguru-pc
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.1 (Org mode 9.1.14)
+
 * JAS refine
   　極性判定が出来るデータを見つけたので、これを自分用に加工します。
   　加工基準として、URLなんかは省くようにしています。
@@ -12,7 +25,8 @@
   cd JAS-refine
   python parse.py
   #+end_src
-  csv 形式のデータ、 *raw_dev.csv* *raw_test.csv* *raw_train.csv* が *JAS-refine* フォルダ下に得られます。
+  csv 形式のデータ、 *raw_dev.csv* *raw_test.csv* *raw_train.csv* が *JAS-refine* フォルダ下に
+得られます。
   example:
  |---------------+---|
  | "センテンス1" | 1 |
