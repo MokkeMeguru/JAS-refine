@@ -1,0 +1,19 @@
+{
+  "documentSentiment": {
+    "magnitude": 0.4,
+    "score": 0.4
+  },
+  "language": "ja",
+  "sentences": [
+    {
+      "text": {
+        "content": "こんにちは",
+        "beginOffset": 0
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    }
+  ]
+}
