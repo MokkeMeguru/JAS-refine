@@ -24,8 +24,16 @@
   ラベルは 0 から 5 の整数値であり、0 が positive 5 が negative のようです。
 * require
   - Python 3
-** 生データ(単語分割していないもの)
-   nil
+* 生データ(単語分割していないもの)
+  - bakup
+    - raw-data
+      - raw.txt 一行ごとにツイートが入っている生データ
+      - raw_dev.csv 
+      - raw_test.csv 
+      - raw_train.csv dev:test:train=1:1:10 の割合でデータが分割されています。
+    - tagged-data
+      - retagged-raw.csv 1ツイートごとに極性判定されたデータ
+      - retagged-sentence.csv 1ツイートを1文ごとに分解して極性判定されたデータ
 
 * TODO todo
   - [ ] mecab-neologd splitter
