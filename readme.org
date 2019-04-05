@@ -38,3 +38,14 @@
 * TODO todo
   - [ ] mecab-neologd splitter
   - [ ] sentence-pieces splitter
+
+* Memo
+  ./config_secret.yaml の書き方
+  #+BEGIN_SRC yaml
+GCP:
+  API-key: <your-api-key>
+# see https://console.developers.google.com/apis/api/language.googleapis.com/
+# see https://cloud.google.com/natural-language/docs/common/auth?hl=ja
+
+  #+END_SRC
+
